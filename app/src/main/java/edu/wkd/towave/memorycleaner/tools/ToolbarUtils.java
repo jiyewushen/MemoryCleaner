@@ -24,7 +24,7 @@ public class ToolbarUtils {
         if (activity.getSupportActionBar() != null) {
             activity.getSupportActionBar()
                     .setHomeAsUpIndicator(
-                            R.drawable.abc_ic_ab_back_mtrl_am_alpha);
+                            R.drawable.ic_arrow_back_white_24dp);
             activity.getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         }
     }
